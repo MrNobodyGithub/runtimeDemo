@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MobileOffice.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>6E2259456EC50423712AF1E32427AC61DE76DA7F</string>
+				<key>dateExpires</key>
+				<string>2021/3/12</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C3NGB9EK32.com.HuaZhengInfo.lanchengMobileOffice</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C3NGB9EK32</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>C3NGB9EK32.com.HuaZhengInfo.lanchengMobileOffice</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>MobileOffice.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>3f7f4734-d9cf-479e-bc11-be9c435995a1</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.HuaZhengInfo.lanchengMobileOffice</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C3NGB9EK32</string>
+				<key>name</key>
+				<string>Qingdao Huazheng Software Information Technology Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
