@@ -15,6 +15,7 @@
 #import "MachineOne.h"
 #import "NSObject+Model.h"
 #import <objc/runtime.h>
+#import "Coding.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageV;
 
@@ -27,7 +28,20 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self k_obje_msgSend];
     [self k_class_exchage];
+    // 字典转 模型
     [self k_dic_to_model];
+    // 归档解档
+    [self k_archive_unArchive];
+}
+- (void)k_archive_unArchive{
+    Coding * code = [[Coding alloc] init];
+    code.userId = @"10";
+    code.userName = @"nemo";
+    code.userAge = 18;
+    
+    [ZCommonTool archiveUserDataWith:code];
+    
+    Coding * unar = [ZCommonTool unArchiveUserData];
 }
 
 - (void)k_dic_to_model{

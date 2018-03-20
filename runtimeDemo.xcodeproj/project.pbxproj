@@ -21,6 +21,9 @@
 		4B8CEBF3205FA2CC002CA6AB /* Machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEBF2205FA2CC002CA6AB /* Machine.m */; };
 		4B8CEBF6205FAFA2002CA6AB /* MachineOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEBF5205FAFA2002CA6AB /* MachineOne.m */; };
 		4B8CEBF9205FB122002CA6AB /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEBF8205FB122002CA6AB /* BaseModel.m */; };
+		4BA83D7F2060D82200001FDC /* NSObject+Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA83D7E2060D82200001FDC /* NSObject+Coding.m */; };
+		4BA83D822060D88200001FDC /* Coding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA83D812060D88200001FDC /* Coding.m */; };
+		4BA83D862060E25A00001FDC /* ZCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA83D842060E25A00001FDC /* ZCommonTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,13 @@
 		4B8CEBF5205FAFA2002CA6AB /* MachineOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachineOne.m; sourceTree = "<group>"; };
 		4B8CEBF7205FB122002CA6AB /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		4B8CEBF8205FB122002CA6AB /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		4BA83D7D2060D82200001FDC /* NSObject+Coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Coding.h"; sourceTree = "<group>"; };
+		4BA83D7E2060D82200001FDC /* NSObject+Coding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Coding.m"; sourceTree = "<group>"; };
+		4BA83D802060D88200001FDC /* Coding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coding.h; sourceTree = "<group>"; };
+		4BA83D812060D88200001FDC /* Coding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coding.m; sourceTree = "<group>"; };
+		4BA83D842060E25A00001FDC /* ZCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCommonTool.m; sourceTree = "<group>"; };
+		4BA83D852060E25A00001FDC /* ZCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCommonTool.h; sourceTree = "<group>"; };
+		4BA83D8A2060E4A800001FDC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,9 @@
 		4B8CEBBA205F923B002CA6AB /* runtimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4BA83D832060E24B00001FDC /* Other */,
+				4BA83D7C2060D66F00001FDC /* 1字典转模型 */,
+				4BA83D7B2060D65500001FDC /* 2归档解档 */,
 				4B8CEBE4205F9658002CA6AB /* Model */,
 				4B8CEBE3205F92D9002CA6AB /* Category */,
 				4B8CEBBB205F923B002CA6AB /* AppDelegate.h */,
@@ -131,8 +144,6 @@
 		4B8CEBE3205F92D9002CA6AB /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				4B8CEBEE205FA202002CA6AB /* NSObject+Model.h */,
-				4B8CEBEF205FA202002CA6AB /* NSObject+Model.m */,
 				4B8CEBE0205F92CB002CA6AB /* UIImage+Z.h */,
 				4B8CEBE1205F92CB002CA6AB /* UIImage+Z.m */,
 			);
@@ -146,6 +157,26 @@
 				4B8CEBE9205F981D002CA6AB /* Person.m */,
 				4B8CEBEB205FA03E002CA6AB /* BaseDicToModel.h */,
 				4B8CEBEC205FA03E002CA6AB /* BaseDicToModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4BA83D7B2060D65500001FDC /* 2归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				4BA83D7D2060D82200001FDC /* NSObject+Coding.h */,
+				4BA83D7E2060D82200001FDC /* NSObject+Coding.m */,
+				4BA83D802060D88200001FDC /* Coding.h */,
+				4BA83D812060D88200001FDC /* Coding.m */,
+			);
+			path = "2归档解档";
+			sourceTree = "<group>";
+		};
+		4BA83D7C2060D66F00001FDC /* 1字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8CEBEE205FA202002CA6AB /* NSObject+Model.h */,
+				4B8CEBEF205FA202002CA6AB /* NSObject+Model.m */,
 				4B8CEBF1205FA2CC002CA6AB /* Machine.h */,
 				4B8CEBF2205FA2CC002CA6AB /* Machine.m */,
 				4B8CEBF4205FAFA2002CA6AB /* MachineOne.h */,
@@ -153,7 +184,17 @@
 				4B8CEBF7205FB122002CA6AB /* BaseModel.h */,
 				4B8CEBF8205FB122002CA6AB /* BaseModel.m */,
 			);
-			path = Model;
+			path = "1字典转模型";
+			sourceTree = "<group>";
+		};
+		4BA83D832060E24B00001FDC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4BA83D852060E25A00001FDC /* ZCommonTool.h */,
+				4BA83D842060E25A00001FDC /* ZCommonTool.m */,
+				4BA83D8A2060E4A800001FDC /* PrefixHeader.pch */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,12 +302,15 @@
 				4B8CEBE2205F92CB002CA6AB /* UIImage+Z.m in Sources */,
 				4B8CEBF3205FA2CC002CA6AB /* Machine.m in Sources */,
 				4B8CEBC0205F923B002CA6AB /* ViewController.m in Sources */,
+				4BA83D822060D88200001FDC /* Coding.m in Sources */,
 				4B8CEBF6205FAFA2002CA6AB /* MachineOne.m in Sources */,
+				4BA83D7F2060D82200001FDC /* NSObject+Coding.m in Sources */,
 				4B8CEBF0205FA202002CA6AB /* NSObject+Model.m in Sources */,
 				4B8CEBED205FA03E002CA6AB /* BaseDicToModel.m in Sources */,
 				4B8CEBEA205F981D002CA6AB /* Person.m in Sources */,
 				4B8CEBCB205F923B002CA6AB /* main.m in Sources */,
 				4B8CEBF9205FB122002CA6AB /* BaseModel.m in Sources */,
+				4BA83D862060E25A00001FDC /* ZCommonTool.m in Sources */,
 				4B8CEBBD205F923B002CA6AB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = /Users/js/Desktop/runtime/runtimeDemo/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogogo.runtimeDemo;
@@ -433,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = /Users/js/Desktop/runtime/runtimeDemo/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogogo.runtimeDemo;
