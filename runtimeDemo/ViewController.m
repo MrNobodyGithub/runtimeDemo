@@ -54,11 +54,11 @@
     Machine * m  = [Machine modelWithDict:dic];
 }
 - (void)k_obje_msgSend{ 
-    Person *p = [[Person alloc] init];
+//    Person *p = [[Person alloc] init];
     // 默认person，没有实现eat方法，可以通过performSelector调用，但是会报错。
     // 动态添加方法就不会报错
-    [p performSelector:@selector(eat)];
-     
+//    [p performSelector:@selector(eat)];
+    
 }
 - (void)k_class_exchage{ 
     UIImage * image = [UIImage imageNamed:@"back"];
