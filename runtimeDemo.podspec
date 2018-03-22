@@ -2,6 +2,7 @@
 Pod::Spec.new do |s|
   s.name         = "runtimeDemo"
   s.version      = "0.0.3"
+  s.platform = :ios
   s.ios.deployment_target = '6.0'
   s.summary      = "runtimeDemo gogogo"
   s.homepage     = "https://github.com/MrNobodyGithub/runtimeDemo"
