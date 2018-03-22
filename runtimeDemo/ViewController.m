@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Person.h"
+//#import "Person.h"
 #import "UIImage+Z.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
