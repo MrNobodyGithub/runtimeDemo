@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = " runtimeDemo gogogo"
   s.homepage     = 'https://github.com/MrNobodyGithub/runtimeDemo'
   s.license      = 'MIT'
- # s.authors      = {'MrZhao' => '1508122971@qq.com'}
+  s.authors      = {'zhaocg' => '1508122971@qq.com'}
   s.platform     = :ios, '9.0'
   s.source       = {:git => 'https://github.com/MrNobodyGithub/runtimeDemo.git', :tag => s.version}
   s.source_files = 'runtimeDemo/**/*'
@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  #s.description  = <<-DESC
-                   DESC
-
+#  s.description  = <<-DESC
+#                  DESC
+  s.description = 'description balabala'
   #s.homepage     = "https://github.com/MrNobodyGithub/runtimeDemo"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "zhaocg" => "1508122971@qq.com" }
+#  s.author             = { "zhaocg" => "1508122971@qq.com" }
   # Or just: s.author    = "zhaocg"
   # s.authors            = { "zhaocg" => "1508122971@qq.com" }
   # s.social_media_url   = "http://twitter.com/zhaocg"
