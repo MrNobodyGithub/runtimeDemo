@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.author             = { "zhaocg" => "1508122971@qq.com" }
 #   s.social_media_url   = "http://weibo.com/exceptions"
   s.source       = { :git => "https://github.com/MrNobodyGithub/runtimeDemo.git", :tag => s.version }
-  s.source_files  = "runtimeDemo"
+  s.source_files  = "runtimeDemo/*/**"
   s.requires_arc = true
 end
