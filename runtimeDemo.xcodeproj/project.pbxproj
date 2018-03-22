@@ -466,6 +466,7 @@
 				GCC_PREFIX_HEADER = /Users/js/Desktop/runtime/runtimeDemo/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogogo.runtimeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -481,6 +482,7 @@
 				GCC_PREFIX_HEADER = /Users/js/Desktop/runtime/runtimeDemo/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = runtimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gogogo.runtimeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
